@@ -37,8 +37,10 @@ public class MyController {
     }
     
     @PostMapping("/getCar")
-    public String cars(@RequestBody Cars car) {
-      	return car.getName();
+    public String car(@RequestBody Cars car) {
+    	Cars cars = new Cars();
+    	cars = car;
+      	return cars.getName();
     }
 
 }

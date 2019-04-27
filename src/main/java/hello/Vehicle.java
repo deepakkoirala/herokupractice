@@ -4,10 +4,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Vehicle {
 
-	@JsonProperty
+//	@JsonProperty
 	public String name;
 	
-	@JsonProperty
+//	@JsonProperty
 	public String age;
 
 	Vehicle(){	

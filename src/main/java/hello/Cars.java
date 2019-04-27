@@ -1,10 +1,10 @@
 package hello;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+//import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Cars extends Vehicle {
 	
-	@JsonProperty
+//	@JsonProperty
 	private String wheels;
 	
 	Cars(){	
