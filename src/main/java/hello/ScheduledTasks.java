@@ -39,7 +39,7 @@ public class ScheduledTasks {
     @Scheduled(fixedRate = 15000)
     public void reportCurrentTime() {
     	this.ct.currentTime = dateFormat.format(new Date());
-    	this.test = "Time is" + this.ct.currentTime;
+    	this.test = "Time is " + this.ct.currentTime;
         log.info("The time is now {}", dateFormat.format(new Date()));
     }
 }
